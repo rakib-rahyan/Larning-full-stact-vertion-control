@@ -7,9 +7,24 @@ div {
 }
 #box1 {
     position: static;
+    background-color: red;
 }
 #box2 {
     position: relative;
     top: 100px;
     left: 50px;
+    background-color: green;
+}
+#box3 {
+    position: sticky;
+    top: 20px;
+    left: 20px;
+    background-color: rgb(236, 77, 77);
+    
+}
+#box4 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 7vw;
 }
