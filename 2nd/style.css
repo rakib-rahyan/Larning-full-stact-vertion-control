@@ -1,42 +1,12 @@
-
-*{ text-align: center;
-    margin: 0;
-    padding: 0;
-    
-}
-#navbar {
-    background-color: #0f1111;
-    color: white;
-    height: 60px;
-}
-a {
-    text-decoration: none;
-    color: white;
-    margin-right: 200px;
-}
-
-#logo {
-    margin-left: 2px;
-    font-size: 25px;
-    color: #f08804
-
-}
-button {
-    background-color: #f08804;
-    color: white;
-}
-
-.contenClass {
+#box1 {
     height: 100px;
-    width: 100px;
-    border: 2px solid black;
-    display: inline-block;
-    
+    width: 200px;
+    background-color: green;
 }
-#content {
-    height: 770px;
-}
-footer {
-    background-color: black;
-    color: white;
+#box2 {
+    height: 50px;
+    width: 50%;
+    background-color: yellow;
+    margin: 10%;
+    border-radius: 50%;
 }
