@@ -36,14 +36,16 @@ div {
     display: inline-block;
     background-color: aqua;
     color: white;
+    border-radius: 50%;
+    text-align: center;
 }
 #box1 {
     position: fixed;
     top: 0px;
     left: 0px;
     background-color: blue;
-
     width: 50vw;
+    z-index: 1;
 }
 #box2 {
     position: sticky;
@@ -51,6 +53,7 @@ div {
     left: 4vw;
     background-color: green;
     width: 50vw;
+    z-index: 3;
 }
 #box3 {
     position: sticky;
@@ -58,6 +61,7 @@ div {
     left: 8vw;
     background-color: red;
     width: 50vw;
+    z-index: 2;
 }
 #box4 {
     position: sticky;
@@ -65,14 +69,15 @@ div {
     left: 12vw;
     background-color: blueviolet;
     width: 50vw;
+    z-index: 1;
 }
 #box5 {
     position: sticky;
     top: 0px;
     left: 16vw;
     background-color: gray;
-
     width: 50vw;
+    z-index: 4;
 }
 #box6 {
     position: fixed;
@@ -80,8 +85,8 @@ div {
     left: 20vw;
     background-color: rebeccapurple;
     width: 50vw;
+    z-index: 5;
 }
-
 
 
 
