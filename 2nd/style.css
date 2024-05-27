@@ -34,61 +34,72 @@ div {
     
     border: 3px double white;
     display: inline-block;
-    background-color: aqua;
     color: white;
     border-radius: 50%;
     text-align: center;
+    background-size: cover;
 }
 #box1 {
     position: fixed;
     top: 0px;
     left: 0px;
     background-color: blue;
-    width: 50vw;
-    z-index: 1;
+    width: 100px;
+    z-index: 6;
+    background-image: url("/cat1.jpg");
+    
 }
 #box2 {
     position: sticky;
     top: 0px;
     left: 4vw;
     background-color: green;
-    width: 50vw;
-    z-index: 3;
+    width: 100px;
+    z-index: 5;
+    background-image: url("/3cat.jpg");
 }
 #box3 {
     position: sticky;
     top: 0px;
     left: 8vw;
     background-color: red;
-    width: 50vw;
-    z-index: 2;
+    width: 100px;
+    z-index: 4;
+    background-image: url("/profoto-albert-watson-steve-jobs-pinned-image-original.jpg");
 }
 #box4 {
     position: sticky;
     top: 0px;
     left: 12vw;
-    background-color: blueviolet;
-    width: 50vw;
-    z-index: 1;
+    width: 100px;
+    z-index: 3;
+    background-image: url("/manja-vitolic-gKXKBY-C-Dk-unsplash.jpg");
 }
 #box5 {
     position: sticky;
     top: 0px;
     left: 16vw;
-    background-color: gray;
-    width: 50vw;
-    z-index: 4;
+
+    width: 100px;
+    z-index: 2;
+    background-image: url("/cat2.jpg");
 }
 #box6 {
     position: fixed;
     bottom: 0px;
     left: 20vw;
-    background-color: rebeccapurple;
-    width: 50vw;
-    z-index: 5;
+
+    width: 100px;
+    z-index: 1;
+    background-image: url("/3cat.jpg");
+
 }
 
-
+body{
+    background-image: url("/manja-vitolic-gKXKBY-C-Dk-unsplash.jpg");
+    background-size: 100vw;
+    
+}
 
 
 
