@@ -1,11 +1,31 @@
-#box1 {
+body {
+    text-align: center;
+}
+#container {
+    width: 800px;
+    
+    display: flex;
+    flex-direction: column-reverse;
+} 
+div {
     height: 100px;
     width: 100px;
-    border: 3px double black;
-    background-image: url("/cat1.jpg");
-    background-size: cover;
+    display: inline-block;
+    border: 2px double black;
     color: white;
-    position: fixed;
-    bottom: 0px;
-    right: 0px;
+}
+#box1 {
+    background-color: aqua;
+}
+#box2 {
+    background-color: pink;
+}
+#box3 {
+    background-color: darkkhaki;
+}
+#box4 {
+    background-color: indianred;
+}
+#box5 {
+    background-color: slateblue;
 }
