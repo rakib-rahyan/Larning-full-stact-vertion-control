@@ -2,14 +2,17 @@ body {
     text-align: center;
 }
 #container {
-    width: 800px;
-    
+    width: 600px;
+    height: 600px;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 } 
 div {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 150px;
     display: inline-block;
     border: 2px double black;
     color: white;
